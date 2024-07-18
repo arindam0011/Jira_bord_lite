@@ -8,11 +8,12 @@ body{
     background-image: url("https://c4.wallpaperflare.com/wallpaper/952/536/1006/winter-4k-pc-desktop-wallpaper-preview.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
     padding-inline: 50px;
+    width: 100vw;
+    height: 100vh;
 }
 #header{
     display: flex;
@@ -84,6 +85,8 @@ body{
    justify-content: space-around;
    margin-top: 50px;
    margin-top:  50px;
+   width: 100%;
+   height: 90%;
 }
 div>div>h2{
     color: rgb(245, 224, 240);
@@ -93,7 +96,7 @@ div>div>h2{
 .section_child{
     border:2px solid rgb(248, 248, 243);
     width: 33%;
-    min-height: 500px;
+    height: 80%;
     border-radius: 5px;
 }
 
